@@ -1,0 +1,82 @@
+html {
+	background-color:black;
+	color:white;
+	font-family:eyebeam;
+}
+
+.container {
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.header-bit {
+	color:white;
+	text-align:left;
+	display:flex;
+	display:inline-flex;
+	width:100%;
+}
+
+.header-left {
+	float:left;
+	width:50%;
+	/*background-color:orange;*/
+}
+
+.header-right {
+	width:100%;
+	float:right;
+	text-align:right;
+	position: relative;
+	margin-top:50px;
+	font-size:30px;
+
+	/*background-color:pink;*/
+}
+.header-right :hover {
+}
+
+.body-bit {
+	padding-top:100px;
+}
+
+.body-list {
+	padding:20px;
+}
+.body-list-item {
+	padding:20px;
+}
+.bold-green {
+	color:#89f505;
+	font-weight:bold;
+}
+
+p {
+		transform: rotate(2deg);
+
+}
+
+a { 
+color: white;
+
+ 	text-decoration: none;
+ }
+ a:hover {
+ 	color:#89f505;
+ }
+.logo {
+	float:left;
+}
+
+hr {
+	color:white
+	;
+}
+
+
+@font-face {
+  font-family: "eyebeam";
+  /*src: url("../fonts/IBMPlexMono-Italic.ttf") format("truetype");*/
+  src: url("fonts/es.otf") format("truetype");
+}
