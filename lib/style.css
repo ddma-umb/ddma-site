@@ -1,7 +1,11 @@
 html {
 	background-color:black;
 	color:white;
-	font-family:eyebeam;
+	font-family:basis-regular;
+}
+
+b {
+	font-family:basis-bold;
 }
 
 .container {
@@ -38,7 +42,7 @@ html {
 }
 
 .body-bit {
-	padding-top:100px;
+	padding-top:50px;
 }
 
 .body-list {
@@ -50,6 +54,11 @@ html {
 .bold-green {
 	color:#89f505;
 	font-weight:bold;
+}
+
+.footer {
+	padding-top:50px;
+	text-align:center;
 }
 
 p {
@@ -79,4 +88,14 @@ hr {
   font-family: "eyebeam";
   /*src: url("../fonts/IBMPlexMono-Italic.ttf") format("truetype");*/
   src: url("fonts/es.otf") format("truetype");
+}
+@font-face {
+  font-family: "basis-regular";
+  /*src: url("../fonts/IBMPlexMono-Italic.ttf") format("truetype");*/
+  src: url("fonts/basis-grotesque-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "basis-bold";
+  /*src: url("../fonts/IBMPlexMono-Italic.ttf") format("truetype");*/
+  src: url("fonts/basis-grotesque-bold.ttf") format("truetype");
 }
