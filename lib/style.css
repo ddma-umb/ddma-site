@@ -62,40 +62,52 @@ b {
 }
 
 p {
-		transform: rotate(2deg);
+	transform: rotate(2deg);
 
 }
 
-a { 
-color: white;
+.link a{
+	color: white;
+	text-decoration: none;
+}
 
- 	text-decoration: none;
- }
- a:hover {
- 	color:#89f505;
- }
+.link a:hover {
+	color:#89f505;
+}
+
+.body-list-item:hover {
+	/*background-color:gray;*/
+	/*color:red;*/
+}
+
+.header-img img{
+	position:absolute;
+	top:00%;
+	width:60%;
+	right:10%;
+	z-index:-1;
+}
+
 .logo {
 	float:left;
 }
 
 hr {
-	color:white
-	;
+	color:white;
 }
 
-
 @font-face {
-  font-family: "eyebeam";
-  /*src: url("../fonts/IBMPlexMono-Italic.ttf") format("truetype");*/
-  src: url("fonts/es.otf") format("truetype");
+	font-family: "eyebeam";
+	/*src: url("../fonts/IBMPlexMono-Italic.ttf") format("truetype");*/
+	src: url("fonts/es.otf") format("truetype");
 }
 @font-face {
-  font-family: "basis-regular";
-  /*src: url("../fonts/IBMPlexMono-Italic.ttf") format("truetype");*/
-  src: url("fonts/basis-grotesque-regular.ttf") format("truetype");
+	font-family: "basis-regular";
+	/*src: url("../fonts/IBMPlexMono-Italic.ttf") format("truetype");*/
+	src: url("fonts/basis-grotesque-regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: "basis-bold";
-  /*src: url("../fonts/IBMPlexMono-Italic.ttf") format("truetype");*/
-  src: url("fonts/basis-grotesque-bold.ttf") format("truetype");
+	font-family: "basis-bold";
+	/*src: url("../fonts/IBMPlexMono-Italic.ttf") format("truetype");*/
+	src: url("fonts/basis-grotesque-bold.ttf") format("truetype");
 }
