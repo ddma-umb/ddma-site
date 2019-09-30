@@ -11,9 +11,21 @@ b {
 .container {
 	width:90%;
 	margin-left:auto;
+
+	/*max-width:1200px;*/
+
 	margin-right:auto;
 }
 
+.about {
+	font-size:25px;
+}
+.link {
+	color:#89f505;
+	/*font-style: italic;*/
+	font-stretch: ultra-expanded;
+	font-weight:bold;
+}
 .header-bit {
 	color:white;
 	text-align:left;
@@ -47,6 +59,9 @@ b {
 
 .body-list {
 	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	line-height: 2em;
 }
 .body-list-item {
 	padding:20px;
@@ -55,12 +70,54 @@ b {
 	color:#89f505;
 	font-weight:bold;
 }
+.bold-green a:selected {
+	text-decoration-color:red;
+}
+
 
 .footer {
 	padding-top:50px;
 	text-align:center;
+	height:200px;
+}
+.signup {
+	width:600px;
+	text-align: left;
+	border:3px solid white;
+	padding:20px 20px 30px 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.button {
+	background-color:transparent;
+	color:white;
+	/*border: 3px white;*/
+	font-size:20px;
+	border-width:3px;
+	border-color:white;
+	margin:8px;
+	margin-left:40px;
+	padding:0px 10px 10px 10px;
+	width:130px;
+	font-family:basis-bold;
+
+}
+.button:hover {
+	border-color: #89f505;
+	color: #89f505;
+	cursor:pointer;
 }
 
+input {
+	height:30px;
+	/*width:200px;*/
+	/*border:0px;*/
+		width:240px;
+
+}
+input:focus {
+    border:1px solid gray;
+}
 p {
 	transform: rotate(2deg);
 
