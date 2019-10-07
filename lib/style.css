@@ -73,6 +73,13 @@ b {
 .bold-green a:selected {
 	text-decoration-color:red;
 }
+.bold-pink {
+	color:#bb11cf;
+	font-weight:bold;
+}
+.bold-green a:selected {
+	text-decoration-color:red;
+}
 
 
 .footer {
