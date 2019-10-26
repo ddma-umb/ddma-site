@@ -176,3 +176,21 @@ hr {
 	/*src: url("../fonts/IBMPlexMono-Italic.ttf") format("truetype");*/
 	src: url("fonts/basis-grotesque-bold.ttf") format("truetype");
 }
+
+.workshop-mock-1 {
+	width:50vw;
+	max-width:500px;
+	/*position:absolute;*/
+	/*display:inline;*/
+	/*left:200px;*/
+	/*top:400px;*/
+	z-index:-4;
+}
+.workshop-mock-2 {
+	width: 600px;	
+	left:-5%;
+	top:50%;
+	position:absolute;
+	/*display:inline-block;*/
+
+}
