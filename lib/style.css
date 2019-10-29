@@ -153,10 +153,15 @@ p {
 	z-index:-1;
 }
 
+
 .logo {
 	float:left;
 }
 
+.logo:hover {	
+  -webkit-filter: hue-rotate(50deg);
+  filter: hue-rotate(50deg);
+}
 hr {
 	color:white;
 }
