@@ -15,15 +15,27 @@ b {
 	margin-right:auto;
 }
 
+
+.floater-container {
+	position:absolute;
+	left:50%;
+	top:50%;
+}
+
 .floater {
-	/*position:absolute;*/
-	right:10%;
-	top:40%;
+	z-index:-1;
+	/*top:50%;*/
+	/*left:50%;*/
+	position:relative;	
+	background-image:url('./img/gather.png');
+	height:400px;
 	width:400px;
-	height:600px;
-	background-color:red;
-	background-image: url('./img/gather.png');
-	background-size: cover;
+	background-position:center;
+	background-size: contain;
+	background-repeat:no-repeat;
+	/*top:100%;*/
+	/*right:40%;*/
+	/*width:110%;*/
 }
 
 .about {

@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 	    $("el").css({
 	        "left": -(evt.clientX * 0.05),
-	        "top": -(evt.clientY * 0.05),
+	        "top": -(evt.clientY * 0.05)
 	    });
 
 	});

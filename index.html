@@ -20,13 +20,9 @@
 		<!-- end header bit  -->
 		<div class ="body-bit">
 			<!-- <div > -->
-			<div class="floater"/>
-				<!-- <img class="floater" src = "lib/img/gather.png"> -->
-
-				<!-- </img> --> 
-				test
-				test
-				test
+			<div class="floater-container">
+				<div class="floater"/>
+				</div>
 			</div>
 			<!-- </div> -->
 			<div class="body-list">
@@ -107,6 +103,18 @@
 </script>
 
 <script src="jquery.min.js"></script>
-<script src="mousemove.js"></script>
+<script>
+$(document).ready(function(){
+	$(window).mousemove(function(evt){
+
+	    $(".floater").css({
+	        "left": -(evt.clientX * 0.05),
+	        "top": -(evt.clientY * 0.05),
+	    });
+
+	});
+});
+
+</script>
 
 </html>
