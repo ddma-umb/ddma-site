@@ -23,19 +23,25 @@ b {
 }
 
 .floater {
-	z-index:-1;
+	/*z-index:;*/
 	/*top:50%;*/
 	/*left:50%;*/
 	position:relative;	
-	background-image:url('./img/gather.png');
-	height:400px;
+	background-image:url('./img/gathering_inv.png');
+	/*height:100%;*/
 	width:400px;
+	height:600px;
 	background-position:center;
 	background-size: contain;
 	background-repeat:no-repeat;
 	/*top:100%;*/
 	/*right:40%;*/
 	/*width:110%;*/
+}
+.floater:hover {
+	/*background-color:white;*/
+	background-image:none;
+	background-image:url('./img/rsvp.png');
 }
 
 .about {
@@ -201,7 +207,15 @@ hr {
 	/*src: url("../fonts/IBMPlexMono-Italic.ttf") format("truetype");*/
 	src: url("fonts/basis-grotesque-bold.ttf") format("truetype");
 }
-
+@media (max-width:900px) {
+	.floater-container {
+		position:relative;
+		top:0;
+		left:0;
+		margin-left:10vw;
+		margin-right:auto;
+	}
+}
 .workshop-mock-1 {
 	width:50vw;
 	max-width:500px;
