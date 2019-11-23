@@ -12,9 +12,18 @@ b {
 	width:90%;
 	margin-left:auto;
 
-	/*max-width:1200px;*/
-
 	margin-right:auto;
+}
+
+.floater {
+	/*position:absolute;*/
+	right:10%;
+	top:40%;
+	width:400px;
+	height:600px;
+	background-color:red;
+	background-image: url('./img/gather.png');
+	background-size: cover;
 }
 
 .about {
@@ -22,7 +31,6 @@ b {
 }
 .link {
 	color:#89f505;
-	/*font-style: italic;*/
 	font-stretch: ultra-expanded;
 	font-weight:bold;
 }
