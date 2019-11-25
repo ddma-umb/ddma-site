@@ -18,8 +18,8 @@ b {
 
 .floater-container {
 	position:absolute;
-	left:50%;
-	top:50%;
+	left:60%;
+	top:30%;
 }
 
 .floater {
@@ -115,13 +115,15 @@ b {
 	height:200px;
 }
 .signup {
-	width:600px;
+	width:80vw;
+	/*min-width:100%;*/
 	text-align: left;
 	border:3px solid white;
 	padding:20px 20px 30px 20px;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .button {
 	background-color:transparent;
 	color:white;
@@ -212,8 +214,9 @@ hr {
 		position:relative;
 		top:0;
 		left:0;
-		margin-left:10vw;
+		margin-left:5vw;
 		margin-right:auto;
+		width:80vw;
 	}
 }
 .workshop-mock-1 {
